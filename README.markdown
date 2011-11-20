@@ -9,7 +9,7 @@ Includes simplified controls for file transfers
 
 You will be able to get this theme in it's most stable version from AdiumXtras.com, but if you want to live on the cutting edge you can easily clone the repository from Github to Adium settings folder like so:
 
-    git clone git@github.com:pichfl/Mnmlsm2.git ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/Mnmlsm2.AdiumMessageStyle
+    git clone git://github.com/pichfl/Mnmlsm2.git ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/Mnmlsm2.AdiumMessageStyle
 
 If you want to update the repository, just cd into it and use git pull.
 
