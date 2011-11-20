@@ -5,6 +5,17 @@ Nothing else than just what you need in a list of messages.
 Includes simplified controls for file transfers
 
 
+## Installation
+
+You will be able to get this theme in it's most stable version from AdiumXtras.com, but if you want to live on the cutting edge you can easily clone the repository from Github to Adium settings folder like so:
+
+    git clone git@github.com:pichfl/Mnmlsm2.git ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/Mnmlsm2.AdiumMessageStyle
+
+If you want to update the repository, just cd into it and use git pull.
+
+    cd ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/Mnmlsm2.AdiumMessageStyle; git pull
+
+
 ## Planned color schemes:
 
 - Twitterrific (Light and Dark)
