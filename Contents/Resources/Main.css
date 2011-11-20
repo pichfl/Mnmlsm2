@@ -8,7 +8,9 @@ html,body{
 	word-wrap: break-word;
 	word-break: break-word;
 	line-height: 1.5;
-	text-rendering: optimizeLegibility;}
+	text-rendering: optimizeLegibility;
+	background: #fff;
+	color: #4d4d4c;}
 	
 img{
 	position: relative;
