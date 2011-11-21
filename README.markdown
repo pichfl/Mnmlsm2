@@ -25,5 +25,14 @@ If you want to update the repository, just cd into it and use git pull.
 
 ## Version History
 
+- v0.4 Twitterrific Light added
+- v0.3 Tomorrow, Tomorrow Night, Tomorrow Night Blue done
 - v0.2 Default Style Beta: Most styling complete
 - v0.1 Initial Commit, early Alpha!
+
+
+## Credits
+
+The colors for the Twitterrific substyles are from the awesome Twitter client of the same name made by the famous [Iconfactory](http://iconfactory.com/).
+
+The colors for the Tomorrow substyles are obviously taken from [the color theme](https://github.com/ChrisKempson/Tomorrow-Theme) by Chris Kempson
