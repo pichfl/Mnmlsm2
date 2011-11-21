@@ -1,8 +1,8 @@
 @import url("../Main.css");
 
 html,body{
-	background: #fff;
-	color: #4d4d4c;}
+	background: #f9fbff;
+	color: #404249;}
 
 a, a:link{
 	color: #4e73d4;}
@@ -41,13 +41,13 @@ header{
 	border-top: 1px solid #c5c8cf;}
 
 .t{
-	color: #8e908c;}
+	color: #8e929c;}
 
 .history .m{
-	color: rgba(0,0,0,0.5) !important;}
+	color: #979ba5 !important;}
 
 .history .t{
-	color: rgba(142,144,140,0.5);}
+	color: #b4b9c4;}
 
 .status, .event, .f{
 	background-color: #e1e1e1;
