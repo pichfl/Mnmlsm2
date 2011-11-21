@@ -39,7 +39,7 @@ header{
 	);}
 
 .t{
-	color: #8e908c;}
+	color: #969896;}
 	
 .history .m{
 	color: rgba(197,200,198,0.5) !important;}
@@ -73,29 +73,4 @@ header{
 	border-top-color: rgba(0,0,0,0);}
 	
 button{
-	background: -webkit-linear-gradient(top, 
-		rgba(0,0,0,0.9),
-		rgba(0,0,05,0.4)
-	);
-	box-shadow: inset 0 2px 0 #000, 
-		0 0 0.33em rgba(255,255,255,0.1), 
-		0 0 1px rgba(255,255,255,0.1); }
-
-button:hover{
-	background: -webkit-linear-gradient(top, 
-		rgba(0,0,0,1),
-		rgba(0,0,0,0.7)
-	);
-	box-shadow: inset 0 2px 0 #000, 
-		0 0 0.33em rgba(255,255,255,0.1), 
-		0 0 1px rgba(255,255,255,0.01), 
-		0 0 1em rgba(0,0,0, 0.5);}
-
-button:active{
-	background: -webkit-linear-gradient(top, 
-		rgba(0,0,0,0.6),
-		rgba(0,0,0,0.9)
-	);
-	box-shadow: inset 0 1px 0.25em rgba(255,255,255,0.1), 
-		inset 0 2px 0 #000, 
-		0 0 1px rgba(255,255,255,0.2) ;}
+	color: #1d1f21; }
