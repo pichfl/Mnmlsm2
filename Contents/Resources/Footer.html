@@ -1,0 +1,22 @@
+<script src="zepto.js"></script>
+<script>
+	;(function($){
+		$(function($){
+			$('#Chat').on('DOMSubtreeModified', function(event) {
+				$('.x-message.ICQ:not(.processed)').each(function(index, item) {
+					var item = $(item)
+					if (!item.hasClass('processed')) {
+						var txt = item.text()
+						,	match = txt.match('(\<HTML>\<BODY ICHATBALLOONCOLOR="#[0-9a-f]{6}" ICHATTEXTCOLOR="#[0-9a-f]{6}">\<FONT FACE=".*" ABSZ="[0-9]*" SIZE="[0-9]*">)(.*)(\</FONT>\</BODY>\</HTML>)')
+
+						if (match && match.length > 1) {
+							item.text(match[2])
+						}
+						item.addClass('processed')
+					}
+				})
+			})
+		})
+	})(Zepto)
+</script>
+<div class="test"></div>

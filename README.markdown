@@ -25,6 +25,7 @@ If you want to update the repository, just cd into it and use git pull.
 
 ## Version History
 
+- v0.5 Added beta filter for iChat / Messages.app ICQ messages
 - v0.4 Twitterrific Light added
 - v0.3 Tomorrow, Tomorrow Night, Tomorrow Night Blue done
 - v0.2 Default Style Beta: Most styling complete
