@@ -235,3 +235,6 @@ button:active{
 	box-shadow: inset 0 1px 0.25em rgba(0,0,0,0.2), 
 		inset 0 2px 0 #fff, 
 		0 0 1px rgba(0,0,0,0.5) ;}
+		
+.n.right{
+	text-align: right;}

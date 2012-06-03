@@ -2,6 +2,7 @@
 <script>
 	;(function($){
 		$(function($){
+			// Filter iChat
 			$('#Chat').on('DOMSubtreeModified', function(event) {
 				$('.x-message.ICQ:not(.processed)').each(function(index, item) {
 					var item = $(item)
@@ -15,6 +16,20 @@
 						item.addClass('processed')
 					}
 				})
+			})
+			
+			//Remove transfer-buttons on click
+			$('#Chat').on('click', '.x-buttons button', function() {
+				var el = $(this)
+				,	p = el.parent()
+				
+				p.children('button').remove()
+				if (el.hasClass('cancel')) {
+					p.append('<div class="n right"><em>Cancelled</em></div>')
+				}
+				if (el.hasClass('save')) {
+					p.append('<div class="n right"><em>Saved</em></div>')
+				}
 			})
 		})
 	})(Zepto)

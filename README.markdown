@@ -25,6 +25,7 @@ If you want to update the repository, just cd into it and use git pull.
 
 ## Version History
 
+- v0.6 File Transfer fixed, buttons will be removed once clicked
 - v0.5 Added beta filter for iChat / Messages.app ICQ messages
 - v0.4 Twitterrific Light added
 - v0.3 Tomorrow, Tomorrow Night, Tomorrow Night Blue done
@@ -37,3 +38,5 @@ If you want to update the repository, just cd into it and use git pull.
 The colors for the Twitterrific substyles are from the awesome Twitter client of the same name made by the famous [Iconfactory](http://iconfactory.com/).
 
 The colors for the Tomorrow substyles are obviously taken from [the color theme](https://github.com/ChrisKempson/Tomorrow-Theme) by Chris Kempson
+
+Many thanks to [@torhoehn](http://torhoehn.de/) for testing.
