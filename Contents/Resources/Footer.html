@@ -11,7 +11,7 @@
 						,	match = txt.match('(\<HTML>\<BODY ICHATBALLOONCOLOR="#[0-9a-f]{6}" ICHATTEXTCOLOR="#[0-9a-f]{6}">\<FONT FACE=".*" ABSZ="[0-9]*" SIZE="[0-9]*">)(.*)(\</FONT>\</BODY>\</HTML>)')
 
 						if (match && match.length > 1) {
-							item.text(match[2])
+							item.html(match[2])
 						}
 						item.addClass('processed')
 					}
