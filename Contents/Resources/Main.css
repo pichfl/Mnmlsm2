@@ -90,8 +90,21 @@ img.i{
 	-webkit-border-radius: 0.25em;
 	background: transparent !important;}
 	
-.hideIcons .i{
-	display: none;}
+.hideIcons .i,	
+.hideIcons .a{
+	display: none;
+}
+
+.hideIcons .s{
+	position: relative;
+	top: 0.3em;
+	margin: 0 3% 0;
+	text-transform: uppercase;
+	font-size: 0.916666667em;
+	line-height: 1.636363636em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
 
 .t{
 	position: absolute;
@@ -191,9 +204,10 @@ img.i{
 	
 .f .b{
 	margin-top: 0.25em;
-	padding-right: 0;
+	margin-right: 3em;
+	padding-right: 3%;
 	display: -webkit-box;
-	box-orient: horizontal;}
+	box-orient: horizontal; }
 	
 .f .b div, .f .b button{
 	-webkit-box-flex: 1;}
